@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="715e7e3e-2ad8-4c9c-ac3a-66909953ce59"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="c1584810-5f27-4fac-9007-95da436ce285"
+        name="Admin"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="08d0d54f-a340-4f1d-aedd-b7233edbb74d"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Перегляд даних в бібліотеці"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="47cabe64-5366-4558-b569-d1b9addbbc3b"
+              LastKnownName="Перегляд даних в бібліотеці"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="37b62856-135b-4dd4-8ca3-012e261ffb21"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5f7bc051-ce1d-407d-8f6c-ca0900c5c09d"
+                  name="Перегляд даних в бібліотеці"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c44996e0-8eeb-4173-ae00-63fa46d2c444"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Отрмання інформації про окремі ігри"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d76c1d2b-c814-47fd-99e9-a6775e5f531d"
+              LastKnownName="Отрмання інформації про окремі ігри"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fa9e10b9-c016-49e0-9918-d8093edb841d"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cbcf4a17-88a0-458d-ba3c-fbd68e604575"
+                  name="Отрмання інформації про окремі ігри"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="bc89a9ca-4092-4021-9d98-0d33992da195"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Реєстрація нових юзерів"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="acedc6fb-a551-461d-b6c3-ebd2f488f811"
+              LastKnownName="Реєстрація нових юзерів"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ebfe182e-aca6-4211-b681-ea2ea7f8d82f"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cddfd58c-5657-4ef3-a046-126db1c3d1cc"
+                  name="Реєстрація нових юзерів"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1dedd485-1955-4d28-a075-e4d35e6100b5"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Обновлення даних про студії"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3309c46f-3de7-43dd-89db-a39cbb39ebc9"
+              LastKnownName="Обновлення даних про студії"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="97ab2e27-89c3-4db6-909e-39b7623a2ab7"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9c259606-bc2d-44e0-be20-88e3e8611aab"
+                  name="Обновлення даних про студії"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4689ca62-bda9-411f-be08-60889a77e609"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Реєстрація адмінів"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="00595382-2957-4b47-a112-2bd7c9818bf1"
+              LastKnownName="Реєстрація адмінів"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a16249e2-1d2a-4252-9160-829f66956c3d"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="28b55cba-837a-4414-95e9-63d4730cbfe1"
+                  name="Реєстрація адмінів"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cef279bd-a5bf-494d-8bda-93efeaac8d99"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Обновлення записів"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="787ccde1-5066-4b43-bf12-d666ad5b2565"
+              LastKnownName="Обновлення записів"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="25f5e091-508d-49a3-93b7-d7a792b8fe69"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9b665a9d-dbdb-4e25-a0ed-94e68d1f1fc6"
+                  name="Обновлення записів"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="44c47969-e1e6-4286-a914-530d918a4fa0"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Стирання записів"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e5ea1245-363f-485d-b269-8d5261418206"
+              LastKnownName="Стирання записів"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="68a5dfa5-a9c9-4c8f-a27b-1f1834dd0657"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="30d9581b-d4c2-49e8-8e5a-cf2b1a7fc5d9"
+                  name="Стирання записів"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="47cabe64-5366-4558-b569-d1b9addbbc3b"
+        name="Перегляд даних в бібліотеці"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d76c1d2b-c814-47fd-99e9-a6775e5f531d"
+        name="Отрмання інформації про окремі ігри"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="acedc6fb-a551-461d-b6c3-ebd2f488f811"
+        name="Реєстрація нових юзерів"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d4e13569-4c44-4c3b-900a-0260d3f617c5"
+        name="Створення записів"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e5ea1245-363f-485d-b269-8d5261418206"
+        name="Стирання записів"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="787ccde1-5066-4b43-bf12-d666ad5b2565"
+        name="Обновлення записів"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="00595382-2957-4b47-a112-2bd7c9818bf1"
+        name="Реєстрація адмінів"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3309c46f-3de7-43dd-89db-a39cbb39ebc9"
+        name="Обновлення даних про студії"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
